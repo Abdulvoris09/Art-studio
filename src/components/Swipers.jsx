@@ -11,6 +11,7 @@ function Swipers() {
                 spaceBetween={10}
                 pagination={{
                     clickable: true,
+                    loop: true,
                 }}
                 breakpoints={{
                     640: {
@@ -27,17 +28,17 @@ function Swipers() {
                     },
                 }}
                 modules={[Pagination]}
-                className="mySwiper mb-7"
+                className="mySwiper mb-7 container"
             >
-                <SwiperSlide><img src="./images/2-swiper1.jpg" alt="swiper image"/></SwiperSlide>
-                <SwiperSlide><img src="./images/2-swiper1.jpg" alt="swiper image"/></SwiperSlide>
-                <SwiperSlide><img src="./images/2-swiper1.jpg" alt="swiper image"/></SwiperSlide>
-                <SwiperSlide><img src="./images/2-swiper1.jpg" alt="swiper image"/></SwiperSlide>
-                <SwiperSlide><img src="./images/2-swiper1.jpg" alt="swiper image"/></SwiperSlide>
-                <SwiperSlide><img src="./images/2-swiper1.jpg" alt="swiper image"/></SwiperSlide>
-                <SwiperSlide><img src="./images/2-swiper1.jpg" alt="swiper image"/></SwiperSlide>
-                <SwiperSlide><img src="./images/2-swiper1.jpg" alt="swiper image"/></SwiperSlide>
-                <SwiperSlide><img src="./images/2-swiper1.jpg" alt="swiper image"/></SwiperSlide>
+                <SwiperSlide><img src="./images/2-swiper1.jpg" alt="swiper image" /></SwiperSlide>
+                <SwiperSlide><img src="./images/2-swiper1.jpg" alt="swiper image" /></SwiperSlide>
+                <SwiperSlide><img src="./images/2-swiper1.jpg" alt="swiper image" /></SwiperSlide>
+                <SwiperSlide><img src="./images/2-swiper1.jpg" alt="swiper image" /></SwiperSlide>
+                <SwiperSlide><img src="./images/2-swiper1.jpg" alt="swiper image" /></SwiperSlide>
+                <SwiperSlide><img src="./images/2-swiper1.jpg" alt="swiper image" /></SwiperSlide>
+                <SwiperSlide><img src="./images/2-swiper1.jpg" alt="swiper image" /></SwiperSlide>
+                <SwiperSlide><img src="./images/2-swiper1.jpg" alt="swiper image" /></SwiperSlide>
+                <SwiperSlide><img src="./images/2-swiper1.jpg" alt="swiper image" /></SwiperSlide>
             </Swiper>
         </>
     );

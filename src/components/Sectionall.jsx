@@ -108,7 +108,7 @@ const Sectionall = () => {
           <h3 className="text-lg font-bold text-gray-600 mb-6">
             Współpracujemy z <span className="text-yellow-500">najlepszymi</span>
           </h3>
-          <div className="flex justify-center items-center space-x-8">
+          <div className="flex flex-wrap justify-center items-center gap-6">
             {logos.map((logo, index) => (
               <img
                 key={index}
